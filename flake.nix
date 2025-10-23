@@ -42,6 +42,7 @@
             pkgs.wezterm
             pkgs.nixd
             pkgs.nixfmt
+            pkgs.glow
           ];
 
           system.activationScripts.applications.text = pkgs.lib.mkForce ''
